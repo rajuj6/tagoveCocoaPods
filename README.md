@@ -97,6 +97,17 @@ Initilize Tagove chat with global system button
 
 - `getAvailableAgentCount` - Total unread count of message(s).
 
+##  Protocol
+
+`TagoveDelegate`
+
+`Optional`
+
+- `changeAgentStatus: andStatus:` - When any agent status update. First paramater is agentID and second is status (AgentStatus enum).
+
+- `updateUnreadCount:` - When receive chat message count will be increase. First paramater is integer count of unread message(s).
+
+
 ## License
 
 Tagove Cocoapods are distributed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
