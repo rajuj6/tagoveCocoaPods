@@ -9,10 +9,8 @@ This is a repository of Cocoapods which are ad-hoc/beta releases of the Tagove f
 Example:
 
 ```
-source 'https://github.com/tagove/CocoaPods.git'
-pod 'Tagove', '1.0.1'            // For normal version
+pod 'Tagove'            // For normal version
 ```
-NOTE : Do not prefix the version number with the '~>' (Optimistic operator).
 
 For xcode 8 or later:
 
@@ -21,6 +19,29 @@ For xcode 8 or later:
 3. click the right of Debug, and selected 'Other', input "$(inherited)"
 4. do same with 'Release' and install your pod
 
+## Swift Example
+
+```
+import Tagove
+
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        ...
+        Tagove.sharedObject().initForAccount("ad959", withOptions: nil)
+        ...
+        return true
+    }
+```
+Use in Controller
+
+```
+import Tagove
+
+
+//Call this method to open support view
+
+Tagove.sharedObject().showSupport(self)
+
+```
 
 ## Objective-C Example
 
@@ -43,6 +64,7 @@ Use in Controller:
 
 ```
 #import <Tagove/Tagove.h>
+
 
 //Call this method to open support view
 
