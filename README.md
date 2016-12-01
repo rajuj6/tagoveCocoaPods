@@ -80,6 +80,23 @@ Initilize Tagove chat with global system button
 [[Tagove sharedObject] initForAccount:"YOUR_ACCOUNT_UID" buttonImage:(UIImage *)image withOptions:nil];
 
 ```
+
+## Methods
+
+- `initForAccount: withOptions:` - This is init method for initilize Tagove chat. When you calling initForAccount method you must pass one accountUID parameter Option can be `nil`.
+
+- `initForAccount: buttonImage: withOptions:` - This is init method for initilize Tagove chat with system button bottom right. When you calling this method you must pass accountUID and buttonImage `UIImage` parameter Option can be `nil`.
+
+- `setVisitorIdentifier:` - Set an visitor identifier for your visitor, can be tracked by admin.
+
+- `setVisitor: andEmail:` - Set the name and email of the app visitor.
+
+- `showSupport:` - Show support view controller from current viewcontroller, will call after initForAccount method done. This method must pass a valid viewController instance.
+
+- `getUnreadCount` - Total unread count of message(s).
+
+- `getAvailableAgentCount` - Total unread count of message(s).
+
 ## License
 
 Tagove Cocoapods are distributed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
