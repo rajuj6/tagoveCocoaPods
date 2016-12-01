@@ -26,7 +26,7 @@ import Tagove
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         ...
-        Tagove.sharedObject().initForAccount("ad959", withOptions: nil)
+        Tagove.sharedObject().initForAccount("YOUR_ACCOUNT_UID", withOptions: nil)
         ...
         return true
     }
