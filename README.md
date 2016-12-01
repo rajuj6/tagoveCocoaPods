@@ -72,6 +72,16 @@ Use in Controller:
 
 ```
 
+Initilize Tagove chat with global system button 
+ - Button position bottom right
+ - Button show on application always fixed on every view
+
+```
+// (Use .png format 30x30 px image)
+
+[[Tagove sharedObject] initForAccount:"YOUR_ACCOUNT_UID" buttonImage:(UIImage *)image withOptions:nil];
+
+```
 ## License
 
 Tagove Cocoapods are distributed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
