@@ -73,8 +73,6 @@ Use in Controller:
 ```
 
 Initilize Tagove chat with global system button 
- - Button position bottom right
- - Button show on application always fixed on every view
 
 ```
 // (Use .png format 30x30 px image)
