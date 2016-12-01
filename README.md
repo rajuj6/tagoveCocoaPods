@@ -39,6 +39,16 @@ For xcode 8 or later:
 }
 
 ```
+Use in Controller:
+
+```
+#import <Tagove/Tagove.h>
+
+//Call this method to open support view
+
+[[Tagove sharedObject] showSupport:self];
+
+```
 
 ## License
 
