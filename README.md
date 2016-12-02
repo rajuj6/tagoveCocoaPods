@@ -28,11 +28,11 @@ Remember to write your description why you ask for this authorization, between  
 ```
 <!-- Camera -->
 <key>NSCameraUsageDescription</key>
-<string>$(PRODUCT_NAME)  is use camera for video chat</string>
+<string>$(PRODUCT_NAME) use camera for video chat</string>
 
 <!-- Microphone -->
 <key>NSMicrophoneUsageDescription</key>
-<string>$(PRODUCT_NAME) is use microphone for voice chat</string>
+<string>$(PRODUCT_NAME) use microphone for voice chat</string>
 
 ```
 
