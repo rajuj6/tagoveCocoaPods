@@ -37,6 +37,7 @@ Remember to write your description why you ask for this authorization, between  
 ```
 
 ## Swift Example
+Note: Requires Swift 2.3, 3.0/Xcode 8.x
 
 ```
 import Tagove
