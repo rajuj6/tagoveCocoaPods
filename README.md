@@ -120,10 +120,13 @@ Initilize Tagove chat with global system button
 
 `Optional`
 
+- `changeConnectionStatus:` - When device tagove server connection state change. One parameter is status (ConnectionStatus enum).
+
 - `changeAgentStatus: andStatus:` - When any agent status update. First paramater is agentID and second is status (AgentStatus enum).
 
 - `updateUnreadCount:` - When receive chat message count will be increase. First paramater is integer count of unread message(s).
 
+Note: If you call methos `showSupport:` method on `ConnectionStatus.connecting` status then it will show error in Log `Tagove Error! Session not started yet.`
 
 ## License
 
