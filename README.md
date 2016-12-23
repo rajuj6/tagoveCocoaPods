@@ -138,7 +138,3 @@ If you have any questions or comments, you can reach us at [raju@tagove.com](raj
 
 ## Maintainers
   * [Raju Jangid](https://github.com/rajuj6)
-
-## Help
-
-If you have any questions or comments, you can reach us at [raju@tagove.com](raju@tagove.com)
