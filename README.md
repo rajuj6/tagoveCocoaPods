@@ -134,7 +134,7 @@ Tagove Cocoapods are distributed under [Apache License, Version 2.0](http://www.
 
 ## Help
 
-If you have any questions or comments, you can reach us at [rajuj6](raju at tagove dot com)
+If you have any questions or comments, you can reach us at [raju at tagove dot com](rajuj6)
 
 ## Maintainers
   * [Raju Jangid](https://github.com/rajuj6)
