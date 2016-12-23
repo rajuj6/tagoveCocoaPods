@@ -120,7 +120,7 @@ Initilize Tagove chat with global system button
 
 `Optional`
 
-- `changeConnectionStatus:` - When device tagove server connection state change. One parameter is status (ConnectionStatus enum).
+- `changeConnectionStatus:` - When device and tagove server connection state change. One parameter is status (ConnectionStatus enum).
 
 - `changeAgentStatus: andStatus:` - When any agent status update. First paramater is agentID and second is status (AgentStatus enum).
 
