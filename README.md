@@ -34,6 +34,10 @@ Remember to write your description why you ask for this authorization, between  
 <key>NSMicrophoneUsageDescription</key>
 <string>$(PRODUCT_NAME) use microphone for voice chat</string>
 
+<!-- Photo Library -->
+<key>NSPhotoLibraryUsageDescription</key>
+<string>$(PRODUCT_NAME) send photo/video to agent</string>
+
 ```
 
 ## Swift Example
