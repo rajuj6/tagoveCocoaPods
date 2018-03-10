@@ -9,7 +9,7 @@ This is a repository of Cocoapods which are ad-hoc/beta releases of the Tagove f
 Example:
 
 ```
-pod 'Tagove', '1.0.10'            // For normal version
+pod 'Tagove', '1.2.0'            // For normal version
 ```
 
 For xcode 8 or later:
